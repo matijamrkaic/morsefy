@@ -4,6 +4,10 @@
 - As you type, both letters and morse code appears on split screen
 - Morse code is automatically played out with both sound and subtle visuals flashes of light.
 
+## Live Demo
+
+🚀 **[Try Morsefy Live](https://matijamrkaic.github.io/morsefy/)**
+
 ## Algorithm
 
 ### Input
