@@ -71,7 +71,8 @@ export class MorseCodePlayer {
 
 	constructor(visualElement: HTMLElement) {
 		this.audioContext = new (window.AudioContext ||
-			(window as any).webkitAudioContext)();
+			(window as typeof window & { webkitAudioContext: typeof AudioContext })
+				.webkitAudioContext)();
 		this.visualElement = visualElement;
 	}
 
